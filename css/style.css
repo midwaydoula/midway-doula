@@ -427,6 +427,9 @@ section { padding: 88px 0; }
   border-color: var(--cobalt);
 }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.form-status { margin: 16px 0 0; font-size: 0.92rem; min-height: 1.4em; }
+.form-status.success { color: #2f6b46; }
+.form-status.error { color: #a13d3d; }
 @media (max-width: 600px) { .form-row { grid-template-columns: 1fr; } }
 
 /* Page hero (interior pages) */
