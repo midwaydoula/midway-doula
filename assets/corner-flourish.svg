@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <path id="petalL" d="M0,0 C12,-8 36,-8 48,0 C36,8 12,8 0,0 Z"/>
+    <path id="petalS" d="M0,0 C9,-7 29,-7 38,0 C29,7 9,7 0,0 Z"/>
+  </defs>
+  <g fill="#1E3A5F">
+    <use href="#petalL" transform="rotate(6)"/>
+    <use href="#petalS" transform="rotate(25)"/>
+    <use href="#petalL" transform="rotate(45)"/>
+    <use href="#petalS" transform="rotate(65)"/>
+    <use href="#petalL" transform="rotate(84)"/>
+    <circle cx="0" cy="0" r="6" />
+  </g>
+  <path d="M 62 0 A 62 62 0 0 1 0 62" fill="none" stroke="#1E3A5F" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="62" cy="0" r="2.2" fill="#1E3A5F" opacity="0.65"/>
+  <circle cx="0" cy="62" r="2.2" fill="#1E3A5F" opacity="0.65"/>
+  <circle cx="43.8" cy="17.9" r="1.6" fill="#1E3A5F" opacity="0.65"/>
+</svg>
